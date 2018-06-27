@@ -1,0 +1,150 @@
+* {
+    box-sizing: content-box;
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.d-block {
+    height: 440px;
+}
+
+#row1 {
+    /*background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;*/
+
+    height: 80vh;
+    text-align: center;
+}
+
+.title1 {
+    background-color: #16D9E8;
+}
+
+#row2 {
+    background-color: yellow;
+    height: 80vh;
+    text-align: center;
+}
+
+
+.content,
+#main-footer,
+.wrapper {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.time {
+    /*padding-left: 25px;*/
+}
+
+/* Footer */
+#main-footer {
+    background-color: lightgrey;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.media1 {
+    display: inline-block;
+    -webkit-box-reflect: below 0px
+    -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
+
+i {
+    padding-right: 5px;
+}
+
+.media1 {
+    padding-right: 10px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    /*color: #636b6f;*/
+    color: black;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+#mySidenav > a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav > a:hover {
+    left: 0;
+}
+
+#about {
+    top: 55px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 115px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 175px;
+    background-color: #F44336;
+}
+
+#contact {
+    top: 235px;
+    background-color: #555;
+}
